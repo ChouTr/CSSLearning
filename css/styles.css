@@ -1,0 +1,199 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 9%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+
+/* Navigation bar */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+  }
+
+.big-heading{
+  font-family: "Montserrat 900";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+
+body{
+  font-family:"Montserrat";
+  text-align: center;
+
+
+  }
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 20%;
+  transform:rotate(30deg);
+  position: absolute;
+  right:300px;
+}
+
+/* icon */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+
+
+}
+
+.icon1{
+  color: #ef8172;
+  font-size: 5rem;
+}
+
+
+.icon1:hover{
+  color: #ff4c68;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+.box{
+  padding: 5%;
+
+}
+/* pu{
+  margin: auto;
+  width: 70%;
+  font-family: 'Montserrat';
+  color: grey;
+
+} */
+
+/* testimonials */
+#testimonials{
+background-color: #ef8172;
+color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+
+}
+
+#press{
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+
+}
+
+/* Mobile phone size */
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 60%;
+    transform: rotate(0deg);
+  }
+
+
+
+}
+
+/* Calltoaction */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  font-style: "Montserrat";
+  font-size: 3rem;
+  padding: 7% 15%;
+
+}
+
+h3{
+
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.ico{
+  width: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+
+}

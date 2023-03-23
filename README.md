@@ -1,2 +1,1 @@
-# CSSLearning
-Project
+TinDog Starting Files
